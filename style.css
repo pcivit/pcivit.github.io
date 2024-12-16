@@ -1,32 +1,118 @@
-body {
-    font-family: Arial, sans-serif;
+/* Resetting styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd; /*#f4f4f4;*/
+    color: #333;
     padding: 20px;
+}
+
+.header-left a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.header-left a:hover {
+  color: #007BFF; /* Optional: Change color on hover */
+}
+
+/* Header and image */
+header {
     text-align: center;
 }
+
+header h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 20%;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+/* Social icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    width: 32px;
+    height: 32px;
+}
+
+.social-links img {
+    width: 100%;
+}
+
+/* Introduction section */
+p {
+    text-align: center, justify;
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin: 0 20px;  /* Adds 20px margin on left and right */
+    max-width: 800px;  /* Limits the maximum width of the text */
+    margin-left: auto;
+    margin-right: auto;  /* Centers the text block */
+}
+
+/* Links */
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgrey;  /* Optional: a darker grey when hovering */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+}
+
+
 
 main {
-    padding: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+h1, h2 {
+  color: #444;
 }
 
-a {
-    color: #4CAF50;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
 }
 
