@@ -33,7 +33,7 @@ title: Pierre Civit
 email: pierre.civit@epfl.ch
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pierre.civit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pierrecivit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pcivit
 
 # Build settings
