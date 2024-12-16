@@ -41,6 +41,7 @@ github_username:  pcivit
 
 # Build settings
 theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
 
